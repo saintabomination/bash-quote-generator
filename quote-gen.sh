@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo 'Hello, World!'
+shuf -n 1 quotes.txt
