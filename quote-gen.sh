@@ -1,5 +1,8 @@
 #!/bin/bash
 
+PARENT_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+cd $PARENT_PATH
+
 SELECTED_QUOTE=$(shuf -n 1 quotes.txt)
 IFS='_' read -ra ADDR <<< "$SELECTED_QUOTE"
 QUOTE_COLOR='\033[1;32m'
