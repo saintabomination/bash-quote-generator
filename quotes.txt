@@ -1,7 +1,7 @@
-Quote 1
-Quote 2
-Quote 3
-Quote 4
-Quote 5
-Quote 6
-Quote 7
+Quote 1_Author A
+Quote 2_Author B
+Quote 3_Author C
+Quote 4_Author D
+Quote 5_Author E
+Quote 6_Author F
+Quote 7_Author G
